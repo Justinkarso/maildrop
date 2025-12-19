@@ -1,6 +1,6 @@
 {
   "name": "maildrop",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "Simple email sending with pre-configured SMTP - no setup required",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
