@@ -1,6 +1,6 @@
 {
   "name": "maildrop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple email sending with pre-configured SMTP - no setup required",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,11 +24,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nodemailer": "^6.9.8"
+    "nodemailer": "^7.0.11"
   },
   "devDependencies": {
-    "@types/nodemailer": "^6.4.14",
-    "@types/node": "^20.10.0",
+    "@types/nodemailer": "^7.0.4",
+    "@types/node": "^25.0.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
@@ -38,6 +38,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Justinkarso/maildrop.git"
+    "url": "git+https://github.com/Justinkarso/maildrop.git"
   }
 }
